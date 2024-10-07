@@ -64,7 +64,7 @@ const handler = async (m, {command, conn}) => {
   }
 
 if (command == 'tetas') {
-    const resError = (await axios.get(`https://raw.githubusercontent.com/sebasmpv/YerayBot-MD/master/src/JSON/tetas.json`)).data
+    const resError = (await axios.get(`https://raw.githubusercontent.com/ReeX7/NautuxaBot-MD/master/src/JSON/tetas.json`)).data
 ;
     let res = await conn.getFile(`https://api-fgmods.ddns.net/api/nsfw/boobs?apikey=fg-dylux`).data
 ;
