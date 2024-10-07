@@ -7,15 +7,15 @@ export default handler;
 
 global.terminos = `𝑺𝑴𝑺 𝑫𝑬𝑳 𝑪𝑹𝑬𝑨𝑫𝑶𝑹✨
 
-⚠️ ADVERTENCIA DEL CREADOR (SEBASTIÁN) ⚠️
+⚠️ ADVERTENCIA DEL CREADOR (Lexus) ⚠️
 
- SEBASTIÁN, CADA QUIEN QUE HACE SUBBOT SE HACE CARGO DE SU BOT.
+ LEXUS, CADA QUIEN QUE HACE SUBBOT SE HACE CARGO DE SU BOT.
 
 𝑪𝒐𝒏𝒕𝒂𝒄𝒕𝒂𝒏𝒐𝒔🚀
 
-✫ Wa.me/593992402778
-᯽ Sebastián
+✫ Wa.me/50588586015
+᯽ Lexus
 ✫ Correo electronico: 
 argume
 
-YERAYBOT-MD`;
+NAUTICA SPORTBOT-MD`;
