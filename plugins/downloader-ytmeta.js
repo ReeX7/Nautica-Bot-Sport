@@ -19,7 +19,7 @@ const extract = (await ytdl.getBasicInfo(text)).videoDetails.title;
     genre: s.meta.category || "-",
     comment: {
       language: "spa",
-      text: '🤴🏻 Descarga por Sebastian & Nautica SporrBot-MD 🤖',
+      text: '🤴🏻 Descarga por Sebastian & Nautica SportBot-MD 🤖',
     },
     unsynchronisedLyrics: {
       language: "spa",
