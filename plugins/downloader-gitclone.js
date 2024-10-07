@@ -5,7 +5,7 @@ const handler = async (m, {args, usedPrefix, command}) => {
 
  𝐄𝐣𝐞𝐦𝐩𝐥𝐨:
  
-${usedPrefix + command} https://github.com//YerayBot-MD`;
+${usedPrefix + command} https://github.com//NauticaBot-MD`;
   if (!regex.test(args[0])) throw '*📍 Link Incorrecto!*';
   let [_, user, repo] = args[0].match(regex) || [];
   repo = repo.replace(/.git$/, '');
