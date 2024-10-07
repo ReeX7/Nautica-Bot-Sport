@@ -2,12 +2,12 @@
 /* [❗]                      [❗]                   [❗] */
 /*                                                       */
 /*       |- [ ⚠ ] - CREDITOS DEL CODIGO - [ ⚠ ] -|      */
-/*     —◉ DESAROLLADO POR SEBAS.MVP:                     */
-/*     ◉ Sebas.mvp (https://github.com/sebasmpv)         */
-/*     ◉ Número: wa.me/593992402778                      */
+/*     —◉ DESAROLLADO POR ReeX7:                     */
+/*     ◉ Sebas.mvp (https://github.com/ReeX7)         */
+/*     ◉ Número: wa.me/50588586015                      */
 /*                                                       */
 /*     —◉ FT:                                            */
-/*     ◉ Alee.mvp (https://github.com/ale-rmz)           */
+/*     ◉ Lexus      */
 /*                                                       */
 /* [❗]                      [❗]                   [❗] */
 /* ------------------------------------------------------*/
@@ -48,7 +48,7 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
     } catch {
       try {
         conn.sendPresenceUpdate('composing', m.chat);
-        const syms1 = `Actuaras como un Bot de WhatsApp el cual fue creado por Sebastian, tu seras YerayBot-MD.`;
+        const syms1 = `Actuaras como un Bot de WhatsApp el cual fue creado por Lexus, tu seras NauticaBot-MD.`;
         const fgapi1 = await fetch(`https://api-fgmods.ddns.net/api/info/openai?text=${text}&symsg=${syms1}&apikey=XlwAnX8d`);
         const fgjson1 = await fgapi1.json();
         if (fgjson1.result == 'error' || fgjson1.result == '' || !fgjson1.result) return XD; // causar error undefined para lanzar msg de error
