@@ -1,5 +1,5 @@
-/*              Codigo Creado Por Sebas.mvp
-      (https://github.com/sebasmpv/YerayBot-MD)
+/*              Codigo Creado Por ReeX7
+      (https://github.com/sebasmpv/Nautica Bot SoportBot-MD)
 */
 
 const handler = async (m, {conn, args, groupMetadata, participants, usedPrefix, command, isBotAdmin, isSuperAdmin}) => {
