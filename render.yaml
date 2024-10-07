@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: yeraybot-md
+    name: nautica sportbot-md
     env: docker
     region: Frankfurt
     plan: free
