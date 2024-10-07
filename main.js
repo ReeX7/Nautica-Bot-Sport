@@ -262,13 +262,13 @@ function clearTmp() {
 
 function purgeSession() {
 let prekey = []
-let directorio = readdirSync("./YerayBotSession")
+let directorio = readdirSync("./NauticaBotSession")
 let filesFolderPreKeys = directorio.filter(file => {
 return file.startsWith('pre-key-') /*|| file.startsWith('session-') || file.startsWith('sender-') || file.startsWith('app-') */
 })
 prekey = [...prekey, ...filesFolderPreKeys]
 filesFolderPreKeys.forEach(files => {
-unlinkSync(`./YerayBotSession/${files}`)
+unlinkSync(`./NauticaBotSession/${files}`)
 })
 } 
 
@@ -293,7 +293,7 @@ console.log(chalk.bold.red(`[ ⚠ ] Algo salio mal durante la eliminación, arch
 }}
 
 function purgeOldFiles() {
-const directories = ['./YerayBotSession/', './jadibts/']
+const directories = ['./NauticaBotSession/', './jadibts/']
 const oneHourAgo = Date.now() - (60 * 60 * 1000)
 directories.forEach(dir => {
 readdirSync(dir, (err, files) => {
@@ -333,7 +333,7 @@ console.log(chalk.greenBright('\n╭┈ ┈ ┈ ┈ ┈ • 𝙉𝙖𝙪𝙩𝙞
    }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
 if (reason == 405) {
-await fs.unlinkSync("./YerayBotSession/" + "creds.json")
+await fs.unlinkSync("./NauticaBotSession/" + "creds.json")
 console.log(chalk.bold.redBright(`[ ⚠ ] Conexión replazada, Por favor espere un momento me voy a reiniciar...\nSi aparecen error vuelve a iniciar con : npm start`)) 
 process.send('reset')}
 if (connection === 'close') {
