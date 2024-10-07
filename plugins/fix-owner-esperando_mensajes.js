@@ -8,10 +8,10 @@ const handler = async (m, { conn, usedPrefix }) => {
     return conn.sendMessage(m.chat, {text: '*🧸 Tienes Que Utilizarlo En El Numero Del Bot Oficial.*'}, {quoted: m});
   }
   await conn.sendMessage(m.chat, {text: '*🧩 Iɴɪᴄɪᴀɴᴅᴏ Eʟ Pʀᴏᴄᴇsᴏ Dᴇ Eʟɪᴍɪɴᴀᴄɪᴏ́ɴ Dᴇ Tᴏᴅᴏs Lᴏs Aʀᴄʜɪᴠᴏs Dᴇ Sᴇssɪᴏɴ, Exᴇᴄᴛᴏ Eʟ Aʀᴄʜɪᴠᴏ creds.json...*'}, {quoted: m});
-  const sessionPath = '. /YerayBotSession/';
+  const sessionPath = '. /Nautica SoprtBotSession/';
   try {
     if (!existsSync(sessionPath)) {
-      return await conn.sendMessage(m.chat, {text: '*📍 La Carpeta YerayBotSession No Existe O Está Vacia.*'}, {quoted: m});
+      return await conn.sendMessage(m.chat, {text: '*📍 La Carpeta NauticaBotSession No Existe O Está Vacia.*'}, {quoted: m});
     }
     const files = await fs.readdir(sessionPath);
     let filesDeleted = 0;
