@@ -19,11 +19,11 @@ const extract = (await ytdl.getBasicInfo(text)).videoDetails.title;
     genre: s.meta.category || "-",
     comment: {
       language: "spa",
-      text: '🤴🏻 Descarga por Sebastian & YerayBot-MD 🤖',
+      text: '🤴🏻 Descarga por Sebastian & Nautica SporrBot-MD 🤖',
     },
     unsynchronisedLyrics: {
       language: "spa",
-      text: '🤴🏻 Descarga por Sebastian & YerayBot-MD 🤖',
+      text: '🤴🏻 Descarga por Sebastian & Nautixa SoportBot-MD 🤖',
     },
     image: {
       mime: "image/jpeg",
