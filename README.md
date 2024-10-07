@@ -35,7 +35,7 @@
 
 > Si Deseas Probar El Bot Antes De Instalarlo, Click Abajo.📌
 
-<a href="https://chat.whatsapp.com/KeSQTlDCoCL2OMXpJRtmQS"><img alt="📍 Grupo Oficial" src="https://img.shields.io/badge/Grupo-Oficial-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+<a href="https://chat.whatsapp.com/HIuU2Sow3RuHu1A6qRxZ38"><img alt="📍 Grupo Oficial" src="https://img.shields.io/badge/Grupo-Oficial-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 
 
@@ -56,6 +56,6 @@
 
 ### Editor Y Propietario Del Bot 🤖
 <a
-href="https://github.com/Rex7"><img src="https://github.com/Rex7.png" width="200" height="200" alt="Sebastian"/></a>
+href="https://github.com/ReeX7"><img src="https://github.com/ReeX7.png" width="200" height="200" alt="Sebastian"/></a>
 
 
