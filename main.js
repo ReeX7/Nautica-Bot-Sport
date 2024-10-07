@@ -157,7 +157,7 @@ const connectionOptions = {
 logger: pino({ level: 'silent' }),
 printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
 mobile: MethodMobile, 
-browser: opcion == '1' ? ['YerayBot-MD', 'Safari', '2.0.0'] : methodCodeQR ? ['YerayBot-MD', 'Safari', '2.0.0'] : ['Ubuntu', 'Chrome', '110.0.5585.95'],
+browser: opcion == '1' ? ['NauticaBot-MD', 'Safari', '2.0.0'] : methodCodeQR ? ['NauticaBot-MD', 'Safari', '2.0.0'] : ['Ubuntu', 'Chrome', '110.0.5585.95'],
 auth: {
 creds: state.creds,
 keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
@@ -328,8 +328,8 @@ if (opcion == '1' || methodCodeQR) {
     console.log(chalk.yellow('[ 🦋 ] Escanea el código QR.'));
  }}
    if (connection == 'open') {
-console.log(chalk.greenBright('\n╭┈ ┈ ┈ ┈ ┈ • 𝙔𝙚𝙧𝙖𝙮𝘽𝙤𝙩-𝙈𝘿 💥 • ┈ ┈ ┈ ┈ ┈╮\n┊ 🔰 CONEXIÓN EXITOSA CON WHATSAPP 🔰\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈  ┈╯\n'))
-//conn.fakeReply('573012482694@s.whatsapp.net', '😄', '0@s.whatsapp.net', '😸 Soy YerayBot\nRecientemente Me E Conectado', '0@s.whatsapp.net')
+console.log(chalk.greenBright('\n╭┈ ┈ ┈ ┈ ┈ • 𝙉𝙖𝙪𝙩𝙞𝙘𝙖𝘽𝙤𝙩-𝙈𝘿 💥 • ┈ ┈ ┈ ┈ ┈╮\n┊ 🔰 CONEXIÓN EXITOSA CON WHATSAPP 🔰\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈  ┈╯\n'))
+//conn.fakeReply('573012482694@s.whatsapp.net', '😄', '0@s.whatsapp.net', '😸 Soy NauticaBot\nRecientemente Me E Conectado', '0@s.whatsapp.net')
    }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
 if (reason == 405) {
@@ -398,7 +398,7 @@ global.reloadHandler = async function(restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate);
   }
 
-conn.welcome = '╔═════ @subject ═════╗\n╟✎﹏ *BIENVENIDO(A)*\n╟✎﹏ @user\n╟✎﹏📄𝐼𝑁𝐹𝑂𝑅𝑀𝐴𝐶𝐼𝑂́𝑁: \n╚═══𝒀𝒆𝒓𝒂𝒚 𝑶𝒇𝒊𝒄𝒊𝒂𝒍👽\n\n@desc';
+conn.welcome = '╔═════ @subject ═════╗\n╟✎﹏ *BIENVENIDO(A)*\n╟✎﹏ @user\n╟✎﹏📄𝐼𝑁𝐹𝑂𝑅𝑀𝐴𝐶𝐼𝑂́𝑁: \n╚═══𝑵𝒂𝒖𝒕𝒊𝒄𝒂 𝑶𝒇𝒊𝒄𝒊𝒂𝒍👽\n\n@desc';
     conn.bye = '╔══════════╗\n╟ @user\n╟ *-1 𝑩𝑨𝑺𝑼𝑹𝑨*\n╟ *𝑵𝑶 𝑳𝑬 𝑺𝑨𝑩𝑬 𝑨𝑳 𝑮𝑹𝑼𝑷𝑶*\n╚═══𝒀𝒆𝒓𝒂𝒚 𝑶𝒇𝒊𝒄𝒊𝒂𝒍👽';
   conn.spromote = '@user\n𝗔𝗛𝗢𝗥𝗔 𝗘𝗦 𝗔𝗗𝗠𝗜𝗡 𝗗𝗘 𝗘𝗦𝗧𝗘 𝗚𝗥𝗨𝗣𝗢.';
   conn.sdemote = '@user\n𝗗𝗘𝗝𝗔 𝗗𝗘 𝗦𝗘𝗥 𝗔𝗗𝗠𝗜𝗡 𝗘𝗡 𝗘𝗦𝗧𝗘 𝗚𝗥𝗨𝗣𝗢.';
